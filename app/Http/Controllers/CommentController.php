@@ -6,6 +6,8 @@ use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Models\Forum;
 use App\Models\Comment;
+use Illuminate\Support\Facades\Validator;
+
 class CommentController extends Controller
 {
      // Create a new comment
